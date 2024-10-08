@@ -1,0 +1,58 @@
+body{
+background: blue;
+color: springgreen;
+margin:0px;
+margin-bottom: 75px;
+font-family: "Chakra Petch", sans-serif;
+}
+
+ header{
+    border-bottom: solid 5px rgb(238, 255, 0);
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(238, 255, 0);
+ }
+ .principal {
+    background: rgb(95, 0, 1);
+padding-bottom: 100px;
+padding-top: 10px;
+display: flex;
+justify-content: center;
+ }
+ .texto {
+    padding-right: 10px;
+    padding-left: 20px;
+ }
+ .video {
+margin: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+ }
+
+ h1{
+    font-size: 35px;
+ }
+img  {
+    height: 200px;
+
+ }
+ .ei-nerd{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+ }
+ .links {
+    padding-left: 20px;
+    padding-right: 20px;
+
+ }
+ .links img{
+    opacity: 0.7 ;
+ }
+ .links img:hover{
+    opacity: 1.0;
+    border: 3px solid red;
+ }
+ .links h2{
+    color: yellow;
+ }
